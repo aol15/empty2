@@ -4,23 +4,22 @@
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Attribute",
     "Owner": "gdfsgf",
-    "Alias": "attr2"
+    "Alias": "dfgdfg"
   },
   "Type": "String",
   "Format": "PlainText",
-  "Name": "attr2",
+  "Name": "dfgdfg",
   "IsSystem": false,
   "IsDisabled": false,
   "IsUnique": false,
   "IsIndexed": false,
   "IsTracked": false,
-  "IsDigitGrouping": true,
+  "IsDigitGrouping": false,
   "IsMultiValue": false,
   "IsTitle": false,
   "IsMandatory": false,
   "IsOwnership": false,
-  "IsCalculated": true,
-  "Expression": "@prefix account: <http://comindware.com/ontology/account#>. \r\n\r\n{\r\n ?account a account:Account.\r\n not {?account account:isSystemAdministrator true.}.\r\n ?account -> ?value\r\n}",
+  "IsCalculated": false,
   "InstanceGlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Undefined"
