@@ -39,7 +39,7 @@
                 "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                 "Type": "Attribute",
                 "Owner": "gdfsgf",
-                "Alias": "dfgdfg1"
+                "Alias": "dfgdfg"
               }
             ]
           },
@@ -195,7 +195,7 @@
                 "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                 "Type": "Attribute",
                 "Owner": "gdfsgf",
-                "Alias": "attr21"
+                "Alias": "attr2"
               }
             ]
           },

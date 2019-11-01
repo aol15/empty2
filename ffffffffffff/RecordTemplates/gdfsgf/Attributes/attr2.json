@@ -4,13 +4,13 @@
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Attribute",
     "Owner": "gdfsgf",
-    "Alias": "dfgdfg1"
+    "Alias": "attr2"
   },
   "Type": "String",
   "Format": "PlainText",
-  "Name": "dfgdfg1",
+  "Name": "attr2",
   "IsSystem": false,
-  "IsDisabled": true,
+  "IsDisabled": false,
   "IsUnique": false,
   "IsIndexed": false,
   "IsTracked": false,
