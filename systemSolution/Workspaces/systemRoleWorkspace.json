@@ -1,0 +1,1365 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "System workspace",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleWorkspace",
+    "Alias": "systemRoleWorkspace"
+  },
+  "Description": "System workspace",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "My Tasks",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 2,
+        "ItemType": "MyTasks",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Undefined",
+        "IconClass": "tasks",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "My Tasks",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 2,
+        "ItemType": "MyTasks",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Undefined",
+        "IconClass": "tasks",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "My Tasks",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 2,
+        "ItemType": "MyTasks",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Undefined",
+        "IconClass": "tasks",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Configurations",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 1,
+        "ItemType": "Group",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Group",
+        "IconClass": "cogs",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Diagrams",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 26,
+              "ItemType": "DiagramList",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "DiagramList",
+              "IconClass": "project-diagram",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Templates",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 25,
+              "ItemType": "Templates",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Templates",
+              "IconClass": "briefcase",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 24,
+              "ItemType": "Solutions",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Solutions",
+              "IconClass": "cubes",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 23,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Documents",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 21,
+              "ItemType": "Documents",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Documents",
+              "IconClass": "folder-open",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 19,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Users",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 18,
+              "ItemType": "People",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "People",
+              "IconClass": "address-card",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Groups",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 17,
+              "ItemType": "UserGroups",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "UserGroups",
+              "IconClass": "users",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 16,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Roles",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 15,
+              "ItemType": "Roles",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Roles",
+              "IconClass": "user-shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "System role",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 14,
+              "ItemType": "GlobalSecurity",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "GlobalSecurity",
+              "IconClass": "shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 13,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Reusable functions",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 12,
+              "ItemType": "GlobalFunctions",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "GlobalFunctions",
+              "IconClass": "robot",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication routes",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 11,
+              "ItemType": "CommunicationRoutes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "CommunicationRoutes",
+              "IconClass": "route",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication channels",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 10,
+              "ItemType": "CommunicationChannels",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "CommunicationChannels",
+              "IconClass": "exchange-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Message types",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 9,
+              "ItemType": "MessageTypes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "MessageTypes",
+              "IconClass": "envelope-square",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 7,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Backups",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 6,
+              "ItemType": "Backups",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Backups",
+              "IconClass": "coins",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Theme",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 5,
+              "ItemType": "Themes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Themes",
+              "IconClass": "palette",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Work areas",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 4,
+              "ItemType": "RoleWorkspace",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RoleWorkspace",
+              "IconClass": "stream",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Performance",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 3,
+              "ItemType": "Performance",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Performance",
+              "IconClass": "tachometer",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Active Directory",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 2,
+              "ItemType": "ActiveDirectory",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "ActiveDirectory",
+              "IconClass": "sitemap",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Settings",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 1,
+              "ItemType": "Settings",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Settings",
+              "IconClass": "cog",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Configurations",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 1,
+        "ItemType": "Group",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Group",
+        "IconClass": "cogs",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Diagrams",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 26,
+              "ItemType": "DiagramList",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "DiagramList",
+              "IconClass": "project-diagram",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Templates",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 25,
+              "ItemType": "Templates",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Templates",
+              "IconClass": "briefcase",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 24,
+              "ItemType": "Solutions",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Solutions",
+              "IconClass": "cubes",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 23,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Documents",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 21,
+              "ItemType": "Documents",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Documents",
+              "IconClass": "folder-open",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 19,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Users",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 18,
+              "ItemType": "People",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "People",
+              "IconClass": "address-card",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Groups",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 17,
+              "ItemType": "UserGroups",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "UserGroups",
+              "IconClass": "users",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 16,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Roles",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 15,
+              "ItemType": "Roles",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Roles",
+              "IconClass": "user-shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "System role",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 14,
+              "ItemType": "GlobalSecurity",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "GlobalSecurity",
+              "IconClass": "shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 13,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Reusable functions",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 12,
+              "ItemType": "GlobalFunctions",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "GlobalFunctions",
+              "IconClass": "robot",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication routes",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 11,
+              "ItemType": "CommunicationRoutes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "CommunicationRoutes",
+              "IconClass": "route",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication channels",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 10,
+              "ItemType": "CommunicationChannels",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "CommunicationChannels",
+              "IconClass": "exchange-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Message types",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 9,
+              "ItemType": "MessageTypes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "MessageTypes",
+              "IconClass": "envelope-square",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 7,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Backups",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 6,
+              "ItemType": "Backups",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Backups",
+              "IconClass": "coins",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Theme",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 5,
+              "ItemType": "Themes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Themes",
+              "IconClass": "palette",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Work areas",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 4,
+              "ItemType": "RoleWorkspace",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RoleWorkspace",
+              "IconClass": "stream",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Performance",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 3,
+              "ItemType": "Performance",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Performance",
+              "IconClass": "tachometer",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Active Directory",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 2,
+              "ItemType": "ActiveDirectory",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "ActiveDirectory",
+              "IconClass": "sitemap",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Settings",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 1,
+              "ItemType": "Settings",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Settings",
+              "IconClass": "cog",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Configurations",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 1,
+        "ItemType": "Group",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Group",
+        "IconClass": "cogs",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Diagrams",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 26,
+              "ItemType": "DiagramList",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "DiagramList",
+              "IconClass": "project-diagram",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Templates",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 25,
+              "ItemType": "Templates",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Templates",
+              "IconClass": "briefcase",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 24,
+              "ItemType": "Solutions",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Solutions",
+              "IconClass": "cubes",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 23,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Documents",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 21,
+              "ItemType": "Documents",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Documents",
+              "IconClass": "folder-open",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 19,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Users",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 18,
+              "ItemType": "People",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "People",
+              "IconClass": "address-card",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Groups",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 17,
+              "ItemType": "UserGroups",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "UserGroups",
+              "IconClass": "users",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 16,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Roles",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 15,
+              "ItemType": "Roles",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Roles",
+              "IconClass": "user-shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "System role",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 14,
+              "ItemType": "GlobalSecurity",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "GlobalSecurity",
+              "IconClass": "shield",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 13,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Reusable functions",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 12,
+              "ItemType": "GlobalFunctions",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "GlobalFunctions",
+              "IconClass": "robot",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication routes",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 11,
+              "ItemType": "CommunicationRoutes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "CommunicationRoutes",
+              "IconClass": "route",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication channels",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 10,
+              "ItemType": "CommunicationChannels",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "CommunicationChannels",
+              "IconClass": "exchange-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Message types",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 9,
+              "ItemType": "MessageTypes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "MessageTypes",
+              "IconClass": "envelope-square",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 7,
+              "ItemType": "Splitter",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Undefined",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Backups",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 6,
+              "ItemType": "Backups",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Backups",
+              "IconClass": "coins",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Theme",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 5,
+              "ItemType": "Themes",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Themes",
+              "IconClass": "palette",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Work areas",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 4,
+              "ItemType": "RoleWorkspace",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RoleWorkspace",
+              "IconClass": "stream",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Performance",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 3,
+              "ItemType": "Performance",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Performance",
+              "IconClass": "tachometer",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Active Directory",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 2,
+              "ItemType": "ActiveDirectory",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "ActiveDirectory",
+              "IconClass": "sitemap",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Settings",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 1,
+              "ItemType": "Settings",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "Settings",
+              "IconClass": "cog",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Severity": "None"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
